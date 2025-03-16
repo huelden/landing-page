@@ -11,7 +11,11 @@
   
 }
 boby {
-    background-color: #fff9ea;
+    background-color: #f7f1eb;
+}
+
+section{
+    padding: 28px 8%;
 }
 
 .btn-default {
@@ -32,4 +36,23 @@ boby {
 
 .btn-default:hover{
     background-color: #f8d477;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0, 0.1);
 }
