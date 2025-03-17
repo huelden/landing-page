@@ -23,8 +23,11 @@
     padding: 20px;
 }
 
-#cta .title,span {
+#cta .title ,span {
     color: #e9a209;
+}
+ .dish-description /*span*/{
+    color: #050505;
 }
 
 #cta .description{
@@ -85,17 +88,40 @@
     height: 70%;
     width: fit-content;
     position: relative; /* Garante que fique acima do shape */
-  border-radius: 40px;
-    z-index: 4; /* Maior que o shape */
+    border-radius:10%;
+    z-index: 2; /* Maior que o shape */
 
 }
 .shape{
     background-color: #ffe8b4;
-    width: 50%;
-    height: 100%;
+    width: 57%;
+    height: 80%;
     position: absolute;
     border-radius: 40% 30% 0% 20%;
-    top: 0;
+    top:0;
     right: 0;
+    
     z-index: 1;
+}
+@media screen and (max-width: 1170px){
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+    #banner, 
+    #banner img, 
+    #home .shape
+    {
+        display: none ;
+    }
+    /*
+    #home img {
+        display: none !important;
+    }*/
+    #cta{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
 }
