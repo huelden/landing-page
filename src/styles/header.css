@@ -20,11 +20,11 @@ header {
     gap: 48px;
 }
 
-.nav-item a {
+.nav-item ,a {
     text-decoration: none;
     color: #1d1d1dad;
 }
-.nav-item.active a {
+.nav-item.active ,a {
     color: #1d1d1d;
     border-bottom: 3px solid #ffe100;
 
